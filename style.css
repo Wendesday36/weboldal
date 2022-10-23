@@ -1,0 +1,133 @@
+.menu ul{ list-style-type: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-weight: bold;
+   
+}
+.menu a:hover{
+    color: rgb(166, 103, 135);
+}
+.menu a:link{
+    color: rgb(209, 184, 184);
+}
+.menu a:visited{
+    color: rgb(255, 255, 255);
+}
+.menu a:active{
+    color:blue;
+}
+.oldal ul li::before{
+  color: red; 
+ }
+.oldal h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.menu a{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.container{
+    width:100%;
+    max-width: 800px;
+    color: white;
+    margin: auto;
+}
+.oldal{ grid-template-columns: auto auto auto;
+    margin: auto;
+    display: grid;
+
+}
+.oldal img{ width: 100px;
+   
+}
+body{ background-color:black;
+    font-family:Arial, Helvetica, monospace;
+}
+.iparag{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.kep{
+    text-align: center;
+}
+.masikoldal{
+    padding-top:50px;
+}
+.szoveg p{
+    text-align: justify;
+    font-weight:lighter;
+    font-size: medium;
+    color:azure
+}
+.szoveg h1{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    text-align:left;
+
+}
+.szoveg{
+    padding-right: 450px;
+    margin: 0;
+}
+.minta img{
+    float: right;
+    width: 400px;
+}
+
+.harmadik{
+    padding-top: 200px;
+}
+.harmadik .eloszoveg{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.harmadik .eloszoveg h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.harmadik .profil .elso img{
+    float: left;
+    width: 15%;
+    padding: 25px;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.harmadik .profil .cucc{
+    font-size: medium;
+    float: left;
+    padding: 25px;
+}
+.harmadik .profil .gomb a:hover, a:active {
+    background-color:rgb(30, 93, 165);
+}
+.harmadik .profil .gomb a:link, a:visited {
+    background-color:rgb(112, 187, 233);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.harmadik .profil .gomb a{
+    float: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+.harmadik .profil .gomb{
+    float: left;
+    width: 15%;
+    padding: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    #menu ul{
+        grid-template-columns: auto ;
+    }
+}
